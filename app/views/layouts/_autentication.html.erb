@@ -2,7 +2,7 @@
 
   <% if current_user %>
 
-      Signed in as <%= link_to current_user.friendly_name, edit_profile_path(current_user.default_profile), class: "navbar-link" %>
+      Signed in as <%= link_to current_user.friendly_name, edit_profile_path(current_user.profile), class: "navbar-link" %>
 
       <%= " | " %>
 
